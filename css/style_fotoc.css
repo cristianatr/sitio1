@@ -30,7 +30,6 @@ body{
     height: auto;
 }
 
-
 .hero{
     width: 100%;
     min-height: 10vh;
@@ -67,7 +66,6 @@ body{
     color: var(--gold1);
     font-weight: 700;
 }
-
 
 .hero__main{
     height: calc(100vh - 70px);
@@ -125,6 +123,11 @@ body{
 
 /* Lista */
 
+.subtitle_container_1 {
+    font-size: 32px;
+    color: var(--black1);
+}
+
 .subtitle_container_2 {
     margin-left: 50px;
     margin-top: 5px;
@@ -133,9 +136,29 @@ body{
 .subtitle_container_3 {
     margin-left: 80px;
     margin-top: 5px;
-    display: flex;
+    color: var(--black2);
 }
 
+.materials{
+    margin-top: 15px;
+}
+
+.materials__list{
+    list-style: none;
+    padding-left: 100px;
+    margin: 10px 0 20px;
+    display: grid;
+    gap: 6px;
+}
+
+.materials__list a{
+    color: var(--black2);
+    text-decoration: none;
+}
+
+.materials__list a:hover{
+    color: var(--gold1);
+}
 
 /* check */
 
@@ -157,7 +180,6 @@ body{
     background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
 
 }
-
 
 .item__contact--gold{
     background: linear-gradient(180deg, #F7CE90 0%, #F4BD76 100%);
@@ -276,7 +298,6 @@ body{
         padding: 7px 10px;
     }
 
-
     .hero__main{
         flex-direction: column-reverse;
         justify-content: flex-end;
@@ -302,7 +323,6 @@ body{
     .copy{
         font-size: 20px;
     }
-
 
     .item__contact{
         width: 100%;
