@@ -93,6 +93,16 @@ body{
     width: 48%;
 }
 
+.hero__textos--full{
+    width: 100%;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .icon_social {
     color: white;
     margin: 10px 0;
@@ -100,6 +110,47 @@ body{
     padding: 10px;
     border-radius: 50%;
     text-decoration: none;
+}
+
+.contact-main{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contact-main .copy{
+    color: var(--black2);
+    text-shadow: none;
+}
+
+.contact-title{
+    font-size: 42px;
+}
+
+.contact-list{
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0 30px;
+    color: var(--black2);
+    font-size: 20px;
+    display: grid;
+    gap: 12px;
+}
+
+.contact-list a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.contact-list a:hover{
+    color: var(--gold1);
+}
+
+.contact-list .contact__icon{
+    margin-right: 8px;
+}
+
+.socialmedia--contact{
+    align-items: flex-start;
 }
 .title{
     font-size: 56px;
