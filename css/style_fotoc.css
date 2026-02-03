@@ -125,6 +125,11 @@ body{
 
 /* Lista */
 
+.subtitle_container_1 {
+    font-size: 32px;
+    color: var(--black1);
+}
+
 .subtitle_container_2 {
     margin-left: 50px;
     margin-top: 5px;
@@ -133,9 +138,29 @@ body{
 .subtitle_container_3 {
     margin-left: 80px;
     margin-top: 5px;
-    display: flex;
+    color: var(--black2);
 }
 
+.materials{
+    margin-top: 15px;
+}
+
+.materials__list{
+    list-style: none;
+    padding-left: 100px;
+    margin: 10px 0 20px;
+    display: grid;
+    gap: 6px;
+}
+
+.materials__list a{
+    color: var(--black2);
+    text-decoration: none;
+}
+
+.materials__list a:hover{
+    color: var(--gold1);
+}
 
 /* check */
 
